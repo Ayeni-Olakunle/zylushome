@@ -14,9 +14,10 @@
   flex-direction: column;
   height: auto;
   padding: 1em 3em;
+  margin: 4em 0;
 
   h1 {
-    font-size: 2.5em;
+    font-size: 2em;
   }
 }
 
@@ -26,19 +27,19 @@
   align-items: center;
   flex-wrap: wrap;
   margin: 2em 0;
-  gap: 50px;
 }
 
 .holdbox {
-  width: 30%;
-  height: auto;
-  box-shadow: 5px 5px 5px #efefef, -5px -5px 5px #efefef;
-  padding: 20px;
-  border-radius: 5px;
-  display: flex;
-  justify-content: center;
   align-items: center;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #efefef, -5px -5px 5px #efefef;
+  display: flex;
   flex-direction: column;
+  height: auto;
+  justify-content: center;
+  width: 30%;
+  overflow: hidden;
+  padding: 20px 0;
 }
 
 .LekkiP2Me {
@@ -46,30 +47,40 @@
 }
 
 .boxImage {
-  height: 410px;
+  height: 300px;
 }
 
 .LekkiP {
   color: #ffcc24;
+  font-size: 15px;
+
+  p {
+    font-size: 13px;
+  }
 }
 
 .vLand {
-  padding: 10px 20px;
-  border-radius: 5px;
-  border: none;
   background-color: #ffcc27;
-  font-size: 15px;
+  border: none;
+  border-radius: 5px;
   cursor: pointer;
+  font-size: 12px;
+  padding: 10px 20px;
 }
 
 .seeAllLand {
-  padding: 20px 50px;
-  font-size: 20px;
-  margin-top: 20px;
+  background-color: #ffcc27;
   border: none;
   border-radius: 5px;
-  background-color: #ffcc27;
   cursor: pointer;
+  font-size: 14px;
+  margin-top: 20px;
+  padding: 15px 20px;
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
 }
 
 .holdBlog {
