@@ -1,0 +1,45 @@
+.holdFooter {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  align-items: flex-start;
+  color: white;
+  justify-content: space-around;
+  padding: 40px 0;
+  flex-wrap: wrap;
+}
+
+.aboutTextH2 {
+  font-size: 2em;
+  margin: 0;
+  color: #ffcc24;
+}
+
+.aboutText {
+  font-size: 1.3rem;
+  line-height: 1.7;
+}
+
+.aboutTextE a {
+  font-size: 20px;
+  color: #ffcc24;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 20px;
+}
+
+li {
+  margin: 15px;
+  cursor: pointer;
+}
+
+li:hover {
+  color: #ffcc24;
+}

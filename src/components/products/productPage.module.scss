@@ -1,0 +1,121 @@
+.holdFeatured {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+
+.holdFeatured2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: auto;
+  padding: 1em 3em;
+
+  h1 {
+    font-size: 2.5em;
+  }
+}
+
+.holdList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2em 0;
+  gap: 50px;
+}
+
+.holdbox {
+  width: 30%;
+  height: auto;
+  box-shadow: 5px 5px 5px #efefef, -5px -5px 5px #efefef;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.LekkiP2Me {
+  width: 90%;
+}
+
+.boxImage {
+  height: 410px;
+}
+
+.LekkiP {
+  color: #ffcc24;
+}
+
+.vLand {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ffcc27;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.seeAllLand {
+  padding: 20px 50px;
+  font-size: 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffcc27;
+  cursor: pointer;
+}
+
+.holdBlog {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  padding: 1em 3em;
+  margin: 4em 0;
+
+  .aboutText {
+    padding: 20px;
+  }
+}
+
+.LekkiP2 {
+  text-align: center;
+  color: #ffcc27;
+}
+
+.holdbox2 {
+  width: 30%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.holdTextMe {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+}
+// .vLandButin {
+.vLand2 {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ffcc27;
+  font-size: 15px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.addNo {
+  margin: 40px 0;
+}

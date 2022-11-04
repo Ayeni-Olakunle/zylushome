@@ -1,0 +1,222 @@
+.holdLandPage {
+  height: 85vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.holdLandPage2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 1em 3em;
+}
+
+.houseText {
+  width: 51%;
+  h1 {
+    font-size: 4em;
+    margin: 0;
+  }
+  p {
+    font-size: 17px;
+    color: gray;
+    line-height: 1.5;
+    margin: 3em 0;
+  }
+  button {
+    padding: 15px 3em;
+    background-color: #ffcc24;
+    border: none;
+    border-radius: 50px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  button:hover {
+    padding: 20px 4em;
+  }
+}
+
+.houseImage {
+  height: 85vh;
+}
+
+.holdAbout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+
+.holdAbout2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: auto;
+  padding: 1em 3em;
+  margin: 4em 0;
+}
+
+.aboutusImage {
+  height: 60vh;
+}
+
+.aboutText {
+  width: 51%;
+  .aboutText2 {
+    font-size: 2.5em;
+    margin: 20px 0;
+  }
+
+  .aboutText3 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+
+  p {
+    font-size: 17px;
+    color: gray;
+    line-height: 1.5;
+  }
+  button {
+    padding: 15px 3em;
+    background-color: #ffcc24;
+    border: none;
+    border-radius: 50px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+}
+
+.holdFeatured {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+
+.holdFeatured2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: auto;
+  padding: 1em 3em;
+  margin: 4em 0;
+
+  h1 {
+    font-size: 2.5em;
+  }
+}
+
+.holdList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2em 0;
+}
+
+.holdbox {
+  width: 30%;
+  height: auto;
+  box-shadow: 5px 5px 5px #efefef, -5px -5px 5px #efefef;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.LekkiP2Me {
+  width: 90%;
+}
+
+.boxImage {
+  height: 410px;
+}
+
+.LekkiP {
+  color: #ffcc24;
+}
+
+.vLand {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ffcc27;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.seeAllLand {
+  padding: 20px 50px;
+  font-size: 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffcc27;
+  cursor: pointer;
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+}
+
+.holdBlog {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  padding: 1em 3em;
+  margin: 4em 0;
+
+  .aboutText {
+    padding: 20px;
+  }
+}
+
+.LekkiP2 {
+  text-align: center;
+  color: #ffcc27;
+}
+
+.holdbox2 {
+  width: 30%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.holdTextMe {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+}
+// .vLandButin {
+.vLand2 {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ffcc27;
+  font-size: 15px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.addNo {
+  margin: 40px 0;
+}
