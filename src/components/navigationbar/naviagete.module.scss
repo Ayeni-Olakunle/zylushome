@@ -14,13 +14,13 @@
   list-style-type: none;
   margin: 0;
   display: flex;
-  font-size: 18px;
+  font-size: 13px;
   align-items: center;
   // position: absolute;
 
   li {
-    padding-inline: 15px;
-    margin: 0 20px;
+    margin: 0 10px;
+    padding-inline: 7px;
     // position: relative;
   }
   li:hover {
@@ -63,11 +63,11 @@
 }
 
 .callUs {
-  padding: 15px 3em;
+  font-size: 13px;
+  padding: 10px 2em;
   background-color: #ffcc24;
   border: none;
   border-radius: 50px;
-  font-size: 17px;
   cursor: pointer;
 }
 
