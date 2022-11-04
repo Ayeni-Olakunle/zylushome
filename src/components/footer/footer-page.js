@@ -35,7 +35,7 @@ export default function FooterPage(props) {
                     </ul>
                 </div>
                 <div className={footerStyles.holdAbout}>
-                    <h2 className={footerStyles.aboutTextH2}>About Us</h2>
+                    <h2 className={footerStyles.aboutTextH2}>Our Location</h2>
                     <p className={footerStyles.aboutText}>Head Office: 31, Theophilus  Oji Street, Lekki Phase 1, Lagos, Nigeria.</p>
                     <p className={footerStyles.aboutText}>Island Corporate Office: 1 Frank Ojadi Close, Checkpoint/Ogidan Bus-stop, Lekki-Epe Expressway, Sangotendo, Lagos, Nigeria.</p>
                     <p className={footerStyles.aboutText}>Island Cooperate Office: Suite 56/57 Road 3 Ikota Shopping Complex, VGC Lekki, Lagos, Nigeria.</p>

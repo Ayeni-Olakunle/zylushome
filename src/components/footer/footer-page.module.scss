@@ -12,18 +12,18 @@
 }
 
 .aboutTextH2 {
-  font-size: 2em;
+  font-size: 22px;
   margin: 0;
   color: #ffcc24;
 }
 
 .aboutText {
-  font-size: 1.3rem;
+  font-size: 1rem;
   line-height: 1.7;
 }
 
 .aboutTextE a {
-  font-size: 20px;
+  font-size: 15px;
   color: #ffcc24;
   text-decoration: none;
 }
@@ -36,8 +36,9 @@ ul {
 }
 
 li {
-  margin: 15px;
   cursor: pointer;
+  margin: 15px 0;
+  font-size: 15px;
 }
 
 li:hover {
