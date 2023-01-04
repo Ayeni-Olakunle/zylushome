@@ -306,4 +306,42 @@
       font-size: 18px;
     }
   }
+  .holdFeatured2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: auto;
+    padding: 1em;
+    margin: 0;
+
+    h1 {
+      font-size: 2em;
+    }
+  }
+  .holdList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+  }
+  .holdbox {
+    width: 100%;
+  }
+  .holdBlog {
+    flex-direction: column;
+    padding: 10px 15px;
+    margin: 0;
+
+    .aboutText {
+      padding: 20px;
+    }
+  }
+  .holdbox2 {
+    width: 100%;
+  }
 }
