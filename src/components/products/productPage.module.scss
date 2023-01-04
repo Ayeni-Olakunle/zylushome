@@ -131,3 +131,26 @@
 .addNo {
   margin: 40px 0;
 }
+
+@media screen and (max-width: 900px) {
+  .holdList {
+    flex-direction: column;
+  }
+  .holdbox2 {
+    width: 100%;
+  }
+  .holdFeatured2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: auto;
+    padding: 10px 15px;
+    margin: 0;
+
+    h1 {
+      font-size: 2em;
+    }
+  }
+}
