@@ -41,7 +41,7 @@
 }
 
 .houseImage {
-  height: 85vh;
+  height: 70vh;
 }
 
 .holdAbout {
@@ -225,4 +225,23 @@
 
 .addNo {
   margin: 40px 0;
+}
+
+@media only screen and (max-width: 900px) {
+  .houseText {
+    width: 100%;
+  }
+  .holdLandPage2 {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .holdLandPage {
+    height: auto;
+  }
+  .houseImage {
+    height: 50vh;
+  }
+  .aboutusImage {
+    height: 50vh;
+  }
 }

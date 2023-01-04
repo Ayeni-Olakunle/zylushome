@@ -16,7 +16,7 @@ export default function LandPage() {
                         <button>Find Properties</button>
                     </div>
                     <div>
-                        <img src={house} alt="House" className={landPageStyle.houseImage} />
+                        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/330032666.jpg?k=516f1cba4f06691621c9ec50199343eff6aca4f87138728bc2b6e2b3795c81ab&o=&hp=1" alt="House" className={landPageStyle.houseImage} />
                     </div>
                 </div>
             </div>
@@ -96,7 +96,7 @@ export default function LandPage() {
                             <button>Read More here</button>
                         </div>
                         <div>
-                            <img src="https://www.zylushomes.com/wp-content/uploads/2022/07/f0bc5912-79e2-4293-a43d-2aeb06496498.jpg" alt="House" className={landPageStyle.aboutusImage} />
+                            <img src="https://images.ctfassets.net/pg6xj64qk0kh/2r4QaBLvhQFH1mPGljSdR9/39b737d93854060282f6b4a9b9893202/camden-paces-apartments-buckhead-ga-terraces-living-room-with-den_1.jpg?w=960" alt="House" className={landPageStyle.aboutusImage} />
                         </div>
                     </div>
                 </div>
@@ -152,7 +152,7 @@ export default function LandPage() {
                 <div className={landPageStyle.holdAbout}>
                     <div className={landPageStyle.holdAbout2}>
                         <div>
-                            <img src="https://www.zylushomes.com/wp-content/uploads/2022/07/Lekki-Pride-1-latest-zyluhomes.jpg" alt="House" className={landPageStyle.aboutusImage} />
+                            <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/330032653.jpg?k=abc0694e472a7c5260aa0acc4bc560d7eec925bc1b3db19c866173a2803b55e8&o=&hp=1" alt="House" className={landPageStyle.aboutusImage} />
                         </div>
                         <div className={landPageStyle.aboutText}>
                             <h1 className={landPageStyle.aboutText2}>Featured Blog Post</h1>

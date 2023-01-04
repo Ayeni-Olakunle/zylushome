@@ -9,6 +9,9 @@
 .menu {
   height: fit-content;
 }
+.menu2 {
+  display: none;
+}
 
 .holdParent {
   list-style-type: none;
@@ -83,4 +86,38 @@
   align-items: center;
   margin-left: 4px;
   font-size: 25px;
+}
+
+@media screen and (max-width: 900px) {
+  .menu {
+    display: block;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: white;
+    border: 1px solid lightgray;
+  }
+  .menu2 {
+    display: block;
+    font-size: 30px;
+  }
+  .holdNavigate {
+    padding: 10px 15px;
+  }
+  .holdParent {
+    text-align: left !important;
+    flex-direction: column;
+    padding: 10px;
+    align-items: left !important;
+
+    li {
+      margin: 0 10px;
+      padding-inline: 7px;
+      // position: relative;
+    }
+    li:hover {
+      color: #ffcc24;
+      cursor: pointer;
+    }
+  }
 }

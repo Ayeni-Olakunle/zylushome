@@ -2,6 +2,7 @@ import React from 'react';
 import logo from "../../images/company-logo.png"
 import navigationStyle from "./naviagete.module.scss"
 import { IoMdArrowDropdown } from 'react-icons/io';
+import { HiMenu } from 'react-icons/hi';
 
 export default function Naviagete() {
 
@@ -51,6 +52,9 @@ export default function Naviagete() {
                             <button className={navigationStyle.callUs}>Call us</button>
                         </li>
                     </ul>
+                </div>
+                <div className={navigationStyle.meun2}>
+                    <HiMenu />
                 </div>
             </div>
         </section>

@@ -44,3 +44,10 @@ li {
 li:hover {
   color: #ffcc24;
 }
+
+@media only screen and (max-width: 900px) {
+  .holdFooter {
+    display: flex;
+    padding: 13px;
+  }
+}
