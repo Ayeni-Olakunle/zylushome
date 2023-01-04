@@ -101,7 +101,7 @@
     display: block;
     font-size: 30px;
   }
-  .menu2:hover .menu {
+  .menu2:hover + .menu {
     display: block;
   }
   .holdNavigate {

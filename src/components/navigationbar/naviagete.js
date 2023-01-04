@@ -12,6 +12,9 @@ export default function Naviagete() {
                 <div>
                     <img src={logo} className={navigationStyle.logos} alt="Logo" />
                 </div>
+                <div className={navigationStyle.menu2}>
+                    <HiMenu />
+                </div>
                 <div className={navigationStyle.menu}>
                     <ul className={navigationStyle.holdParent}>
                         <li>Home</li>
@@ -53,9 +56,7 @@ export default function Naviagete() {
                         </li>
                     </ul>
                 </div>
-                <div className={navigationStyle.menu2}>
-                    <HiMenu />
-                </div>
+
             </div>
         </section>
     );
