@@ -53,7 +53,7 @@ export default function Naviagete() {
                         </li>
                     </ul>
                 </div>
-                <div className={navigationStyle.meun2}>
+                <div className={navigationStyle.menu2}>
                     <HiMenu />
                 </div>
             </div>

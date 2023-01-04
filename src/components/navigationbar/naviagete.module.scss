@@ -90,7 +90,7 @@
 
 @media screen and (max-width: 900px) {
   .menu {
-    display: block;
+    display: none;
     position: absolute;
     top: 60px;
     right: 20px;
@@ -100,6 +100,9 @@
   .menu2 {
     display: block;
     font-size: 30px;
+  }
+  .menu2:hover .menu {
+    display: block;
   }
   .holdNavigate {
     padding: 10px 15px;
@@ -111,13 +114,41 @@
     align-items: left !important;
 
     li {
-      margin: 0 10px;
+      margin: 5px 10px;
       padding-inline: 7px;
-      // position: relative;
     }
     li:hover {
       color: #ffcc24;
       cursor: pointer;
     }
+  }
+
+  .holdChild {
+    padding: 0;
+    list-style: none;
+    display: none;
+    position: absolute;
+    width: 90%;
+    height: -moz-fit-content;
+    height: fit-content;
+    border: 1px solid #d6d6d6;
+    background-color: white;
+    overflow: hidden;
+
+    li {
+      padding: 10px;
+      width: 88%;
+      color: black;
+      margin: 0;
+      text-align: center;
+    }
+    li:hover {
+      background-color: black;
+      color: white;
+    }
+  }
+
+  .holdParent li:hover .holdChild {
+    display: block;
   }
 }
